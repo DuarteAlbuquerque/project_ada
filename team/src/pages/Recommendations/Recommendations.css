@@ -1,0 +1,89 @@
+.podcastsandbooks {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column; /* Stacks the containers on top of each other */
+    align-items: center; /* Centers containers on the cross axis */
+    margin-top: 65px;
+    text-align: left;
+    width: 80%; /* Adjusts the width of the container */
+    margin: auto; /* Centers the container on the page */
+}
+
+.headerpodcast h1, .header h1 {
+    text-align: center; /* Centers the headings */
+    margin-top: 20px; /* Adds space above the headings */
+}
+
+.recommendations-container, .recommendations-containerB {
+    width: 100%; /* Allows the container to fill the width of its parent */
+    margin-bottom: 30px; /* Adds space below the container */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.179);
+    background-color: #96dcfd88;
+    border-radius: 8px;
+    list-style-type: none;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.recommendations-container ul, .recommendations-containerB ul {
+    padding: 0;
+}
+
+.recommendations-container li, .recommendations-containerB li {
+    border-bottom: 1px solid #ddd; /* A light border for each list item */
+    padding: 10px;
+}
+
+.recommendations-container li:last-child, .recommendations-containerB li:last-child {
+    border-bottom: none;
+}
+
+.recommendations-container h2, .recommendations-containerB h2 {
+    color: #333;
+}
+
+.recommendations-container p, .recommendations-containerB p {
+    color: #666;
+}
+
+.recommendations-container a, .recommendations-containerB a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.recommendations-container a:hover, .recommendations-containerB a:hover {
+    text-decoration: underline;
+}
+
+.navigation-bar {
+    background-color: #333;
+    padding: 10px 0;
+    position: flex; /* Makes the navbar stick to the top */
+    top: 0;
+    width: 100%; /* Ensures the navbar stretches across the full width */
+    z-index: 1000; /* Ensures the navbar stays on top of other elements */
+}
+
+.navigation-bar ul {
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the navigation items */
+    gap: 20px; /* Adds space between navigation items */
+}
+
+.navigation-bar ul li {
+    list-style-type: none;
+}
+
+.navigation-bar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navigation-bar ul li a:hover {
+    background-color: #111;
+}
+
+  
